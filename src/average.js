@@ -12,6 +12,28 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-const average = () => {};
-  // add your implementation here
+const average = (notas) => {
+	let notasValues = Object.values(notas);
+	let notasKeys = Object.keys(notas).length;
+	let notasSoma = notas.reduce(function (total, num) {
+		return total + num;
+	});
+  
+	if (notasValues.some((check) => check === '')) {
+		console.log('vazio');
+		return undefined;
+	} else if (notasValues.some((check) => check === isNaN)) {
+		console.log('nan');
+		return undefined;
+	} else {
+		let result = Math.round(notasSoma / notasKeys);
+		console.log(result);
+		return result;
+	}
+};
+average(["t", 4, 5]);
+
 module.exports = average;
+// average([3, 4, 5]);
+// console.log('undefined');
+// console.log(result);
