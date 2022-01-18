@@ -14,8 +14,8 @@
 */
 
 const average = (notas) => {
-let notasValues = Object.values(notas);
-let notasKeys = Object.keys(notas).length;
+  let notasValues = Object.values(notas);
+  let notasKeys = Object.keys(notas).length;
 
   if (notasValues.some((check) => typeof check !== 'number')) {
     return undefined;
@@ -32,9 +32,9 @@ let notasKeys = Object.keys(notas).length;
   let notasSoma = notas.reduce(function (total, num) {
     return total + num;
   });
-  
+
   let result = Math.round(notasSoma / notasKeys);
-    return result;
+  return result;
 };
 
 module.exports = average;
