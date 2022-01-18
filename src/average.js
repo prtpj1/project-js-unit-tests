@@ -15,25 +15,24 @@
 const average = (notas) => {
 	let notasValues = Object.values(notas);
 	let notasKeys = Object.keys(notas).length;
-	let notasSoma = notas.reduce(function (total, num) {
-		return total + num;
-	});
-  
+
+	for (let i = 0; i < notas.length; i += 1) {
+		if (typeof notas[i] !== 'number') {
+			return undefined;
+		}
+	}
 	if (notasValues.some((check) => check === '')) {
-		console.log('vazio');
 		return undefined;
-	} else if (notasValues.some((check) => check === isNaN)) {
-		console.log('nan');
+	} else if (notasValues.every((check) => check === [])) {
 		return undefined;
 	} else {
+		let notasSoma = notas.reduce(function (total, num) {
+			return total + num;
+		});
 		let result = Math.round(notasSoma / notasKeys);
 		console.log(result);
 		return result;
 	}
 };
-average(["t", 4, 5]);
 
 module.exports = average;
-// average([3, 4, 5]);
-// console.log('undefined');
-// console.log(result);
