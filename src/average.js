@@ -14,25 +14,25 @@
 */
 
 const average = (notas) => {
-	let notasValues = Object.values(notas);
-	let notasKeys = Object.keys(notas).length;
+let notasValues = Object.values(notas);
+let notasKeys = Object.keys(notas).length;
 
-	for (let i = 0; i < notas.length; i += 1) {
-		if (typeof notas[i] !== 'number') {
-			return undefined;
-		}
-	}
-	if (notasValues.some((check) => check === '')) {
-		return undefined;
-	}
-	if (notasValues.every((check) => check === [])) {
-		return undefined;
-	}
-	let notasSoma = notas.reduce(function (total, num) {
-		return total + num;
-	});
-	let result = Math.round(notasSoma / notasKeys);
-	return result;
+for (let i = 0; i < notas.length; i += 1) {
+if (typeof notas[i] !== 'number') {
+return undefined;
+}
+}
+if (notasValues.some((check) => check === '')) {
+return undefined;
+}
+if (notasValues.every((check) => check === [])) {
+return undefined;
+}
+let notasSoma = notas.reduce(function (total, num) {
+return total + num;
+});
+let result = Math.round(notasSoma / notasKeys);
+return result;
 };
 
 module.exports = average;
