@@ -53,13 +53,3 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     expect(circle(3).circumference).toBeCloseTo(18.84);
   });
 });
-//expect(circle(1)).toEqual([1, 3.14, 6.28]);
-// expect(circle(1)).toEqual({radius: 1, area: 3.14, circumference: 6.28});
-// expect(circle(1)).toBeCloseTo(1, 3.14, 6.28);
-// expect(circle(7)).toBeCloseTo(7, 153.86, 43.96);
-// expect(circle(3)).toBeCloseTo(3, 28.26, 18.84);
-/* expect(circle(3)).toBeCloseTo({
-  radius: 3,
-  area: 28.26,
-  circumference: 18.84,
-}); */
