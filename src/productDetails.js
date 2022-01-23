@@ -26,17 +26,17 @@
 
 const productDetails = (firstProduct, secondProduct) => [
   {
-    name: firstProduct,
+    name: `${firstProduct}`,
     details: {
       productId: `${firstProduct}123`,
     },
   },
   {
-    name: secondProduct,
+    name: `${secondProduct}`,
     details: {
       productId: `${secondProduct}123`,
     },
   },
 ];
-
+console.log(productDetails('Alcool gel', 'Máscara'));
 module.exports = productDetails;
