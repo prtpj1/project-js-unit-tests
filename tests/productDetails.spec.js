@@ -42,6 +42,6 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     // Teste se quando passado parâmetros diferentes entre si, os dois objetos também são diferentes entre si.
     
     // Teste se os dois productIds terminam com 123.
-    //fail('Teste vazio!');
+    fail('Teste vazio!');
   });
 });
