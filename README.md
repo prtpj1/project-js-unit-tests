@@ -1,13 +1,43 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# 6º Projeto: Unit Tests em JavaScript
+<p align="center">
+<img src="https://github.com/prtpj1/project-js-unit-tests/blob/main/06%20-%20UnitTests.png" alt="Header" />
+</p>
+<hr/>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Neste projeto, escrevi testes unitários para funções utilizando o módulo Jest do NodeJS para verificar o correto funcionamento de funções forncidas pela Trybe e também escrevi funções para que funcionassem corretamente de acordo com testes fornecidos também pela Trybe.<br>
+Os testes e funções foram escritos utilizando uma abordagem de desenvolvimento orientado a testes.
+<br>
+<hr/>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Tecnologias Utilizadas
+
+#### FrontEnd:
+
+* JavaScript
+* NodeJS
+* Jest
+
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/JavaScript2.png" width="50" height="50" alt="CSS" /><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/NodeJS2.png" width="50" height="50" alt="NodeJS" /><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Jest2.png" width="50" height="50" alt="Jest" />
+
+
+## Como rodar a aplicação?
+
+1. Clone o repositório: <br>
+`git clone git@github.com:prtpj1/project-js-unit-tests.git` 
+
+2. Instale as dependências: <br>
+`npm install`  
+
+3. Rode os testes separadamente: <br>
+`npm test tests/numbers.spec.js`  <br>
+`npm test tests/circle.spec.js` <br>
+`npm test tests/productDetails.spec.js` <br>
+`npm test tests/getCharacter.spec.js` <br>
+`npm test tests/createMenu.spec.js` <br>
+
+4. Ou rode todos os testes de uma vez: <br>
+`npm test` 
+<br>
+
+### Importante :warning:
+Os testes `productDetails` e `createMenu` não foram escritos durante o curso, por tanto falharão. Pretendo completa-los assim que for possível.
