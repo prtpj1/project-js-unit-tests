@@ -37,7 +37,15 @@ Os testes e funções foram escritos utilizando uma abordagem de desenvolvimento
 
 4. Ou rode todos os testes de uma vez: <br>
 `npm test` 
-<br>
+</br>
+</br>
+
+**OBS:**
+</br>
+*Na época que fiz este projeto eu ainda não conhecia os Conventional Commits. Somente a partir do módulo de BackEnd do curso da Trybe que aprendi e comecei a fazer commits melhores.
+</br>
+</br>
+Em breve estarei disponibilizando também os projetos dos módulos de **BackEnd** e **Ciência da Computação***
 
 ### Importante :warning:
 Os testes `productDetails` e `createMenu` não foram escritos durante o curso, por tanto falharão. Pretendo completa-los assim que for possível.
