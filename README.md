@@ -21,21 +21,19 @@ Os testes e funções foram escritos utilizando uma abordagem de desenvolvimento
 
 
 ## Como rodar a aplicação?
-
-1. Clone o repositório: <br>
+- Clone o repositório: <br>
 `git clone git@github.com:prtpj1/project-js-unit-tests.git` 
-
-2. Instale as dependências: <br>
+- Acesse a pasta do projeto: <br>
+`cd project-js-unit-tests`
+- Instale as dependências: <br>
 `npm install`  
-
-3. Rode os testes separadamente: <br>
+- Rode os testes separadamente: <br>
 `npm test tests/numbers.spec.js`  <br>
 `npm test tests/circle.spec.js` <br>
 `npm test tests/productDetails.spec.js` <br>
 `npm test tests/getCharacter.spec.js` <br>
 `npm test tests/createMenu.spec.js` <br>
-
-4. Ou rode todos os testes de uma vez: <br>
+- Ou rode todos os testes de uma vez: <br>
 `npm test` 
 </br>
 </br>
